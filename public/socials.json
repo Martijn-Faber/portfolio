@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "name": "instagram",
+            "link": "https://www.instagram.com/martijn_dev/"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/Martijn-Faber"
+        },
+        {
+            "name": "email",
+            "link": "mailto:martijn@fabtronics.nl"
+        }
+    ]
+}
