@@ -22,7 +22,7 @@
         },
         {
             "name": "Scapetown",
-            "description": "<p><strong>Tap</strong> is a platform where people can share their links with one single link</p>",
+            "description": '',
             "images": [
                 "/projects/scapetown.png"
             ],
