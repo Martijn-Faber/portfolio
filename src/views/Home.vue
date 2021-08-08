@@ -58,7 +58,7 @@ export default defineComponent({
     };
   },
   async mounted() {
-    const response = await fetch(`/projects.json`);
+    const response = await fetch(`https://gist.githubusercontent.com/Martijn-Faber/cbd14476e80f4f64ca4dd81b40c0d21e/raw/36ee3f5535fb858f6b1108f284f63ba276f997ac/projects.json`);
     const projects = await response.json();
     this.projects = projects.data;
   },
