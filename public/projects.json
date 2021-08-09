@@ -33,7 +33,7 @@
         },
         {
             "name": "Covid checkin",
-            "description": "<strong>Covid checkin</strong> is a web app made during the Covid 19 pandamic", // TODO: write better description
+            "description": "<strong>Covid checkin</strong> is a web app made during the Covid 19 pandamic",
             "images": [
                 "https://cdn.discordapp.com/attachments/711921914519486545/842833352461778994/Schermafbeelding_2021-05-14_om_20.38.36-fullpage.png",
                 "https://cdn.discordapp.com/attachments/711921914519486545/842833658477805608/Schermafbeelding_2021-05-14_om_20.39.55.png",
