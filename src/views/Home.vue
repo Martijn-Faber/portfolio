@@ -2,9 +2,9 @@
   <Container>
     <Header />
     <Intro />
-    <div class="projects">
+    <div class="projects" id="projects">
       <Project
-        id="projects"
+        :id="project.name"
         v-for="(project, index) in projects"
         :key="index"
         :index="index"
