@@ -53,13 +53,13 @@
 </style>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import Input from "@/components/base/Input.vue";
-import TextArea from "@/components/base/TextArea.vue";
-import Button from "@/components/base/Button.vue";
+import { defineComponent } from 'vue';
+import Input from '@/components/base/Input.vue';
+import TextArea from '@/components/base/TextArea.vue';
+import Button from '@/components/base/Button.vue';
 
 export default defineComponent({
-  name: "Contact",
+  name: 'Contact',
   components: {
     Input,
     TextArea,
@@ -67,26 +67,26 @@ export default defineComponent({
   },
   data() {
     return {
-      name: "",
-      email: "",
-      message: "",
+      name: '',
+      email: '',
+      message: '',
     };
   },
   methods: {
     async submit() {
       localStorage.setItem(
-        "contact",
+        'contact',
         JSON.stringify({
           name: this.name,
           email: this.email,
-        }),
+        })
       );
 
       location.href = `mailto:martijn@fabtronics.nl?cc=${this.email}&subject=I'm interested!&body=${this.message}`;
     },
   },
   mounted() {
-    const contact = JSON.parse(localStorage.getItem("contact") || "");
+    const contact = JSON.parse(localStorage.getItem('contact') || '{}');
 
     if (contact) {
       this.name = contact.name;
